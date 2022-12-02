@@ -8,7 +8,7 @@ As a bank teller, I want to open an account for my customer so that I can help t
 
 ### Acceptance Criteria
 ###### Account Creation Confirmation
-When I submit my customer's account information
+When I submit my customer's account information  
 Then I see confirmation that their account was created.
 ### Notes
 The only account information needed is the account holder's name. Display their name as part of the confirmation 

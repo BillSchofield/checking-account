@@ -1,12 +1,12 @@
 # Intro
 
 This project is intended to be used as part of a workshop which provides opportunities for you to:
-
-* Practice Pair Programming
-* Practice TDD with a focus on the refactoring step
-* Practice domain modeling
-* Learn about Java language features like Exceptions and Collections
-* Learn about common design patterns
+* Develop your skills with our core practices:
+* Pair Programming
+* Test Driven Development
+* Introduce domain modeling
+* Build muscle memory with some of our more commonly used tools, language features, and frameworks including:
+  * Java Exceptions and Collections
 
 # Workshop
 ## Format
