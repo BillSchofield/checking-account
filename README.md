@@ -20,7 +20,7 @@ composed of:
 
 ### Practices
 We will be diligently using these practices and prioritize 
-* Pair programming. We'll rotate pairs first thing in the morning and again in the afternoon.
+* Pair programming. We'll rotate pairs first thing every morning.
 * Test Driven Development
 * Version control. Commit at least once per hour and push at least twice per day.
 *
