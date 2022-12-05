@@ -30,4 +30,10 @@ public class AccountManagement {
         return accounts.get(accountHolder);
     }
 
+    public void menu() {
+        System.out.println("""
+                1. Create Account
+                """);
+    }
+
 }

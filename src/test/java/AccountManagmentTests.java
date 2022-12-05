@@ -1,5 +1,8 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.contains;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+
 import static org.mockito.Mockito.when;
 
 import java.io.PrintStream;
@@ -17,10 +20,10 @@ public class AccountManagmentTests {
     void setUp() {
         printStream = mock(PrintStream.class);
         reader = mock(LineReader.class);
+        System.setOut(printStream);
         
         accountManagement = new AccountManagement(printStream, reader);
     }
-
 
     @Test
     public void testAccountIsCreatedWhenUserNameIsGiven() {
@@ -48,8 +51,12 @@ public class AccountManagmentTests {
 
         assertEquals("Bill", account.getName());
         assertEquals(0.00, account.getBalance());
-
     }
 
-
+    @Test
+    public void menuOptionSelectCreateAccountStartsCreateAccountProcess() {
+        accountManagement.menu();
+        
+        verify(printStream).println(contains("Create"));
+    }
 }
