@@ -57,6 +57,9 @@ public class AccountManagmentTests {
     public void menuOptionSelectCreateAccountStartsCreateAccountProcess() {
         accountManagement.menu();
         
-        verify(printStream).println(contains("Create"));
+        verify(printStream).println(contains("Create Account"));
+        verify(printStream).println(contains("Quit"));
     }
+
+
 }

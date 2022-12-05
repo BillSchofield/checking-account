@@ -32,8 +32,14 @@ public class AccountManagement {
 
     public void menu() {
         System.out.println("""
+
                 1. Create Account
-                """);
+                2. Quit
+
+                Option: """);
+
+        int selection = reader.readInt();
+        
     }
 
 }

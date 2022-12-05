@@ -1,6 +1,9 @@
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		LineReader reader = new LineReader();
+		AccountManagement accountManagement = new AccountManagement(System.out, reader );
+
+		accountManagement.menu();
 
 	}
 }
