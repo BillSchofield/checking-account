@@ -17,8 +17,7 @@ class AccountManagementTest {
 	@BeforeEach
 	void setUp() {
 		printStream = mock(PrintStream.class);
-		InputStream inputStream = System.in;
-		reader = new LineReader(inputStream);
+		reader = mock(LineReader.class);
 		accountManagement = new AccountManagement(printStream, reader);
 	}
 
