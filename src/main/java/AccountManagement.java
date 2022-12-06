@@ -18,6 +18,7 @@ public class AccountManagement {
 		printStream.println("Please provide account holder name");
 		String accountHolderName = lineReader.readLine();
 		printStream.println("Account for " + accountHolderName + " was created.");
+
 		printStream.println("Current balance is $" + df.format(balance));
 	}
 
@@ -45,5 +46,6 @@ public class AccountManagement {
 			}
 
 		}
+
 	}
 }

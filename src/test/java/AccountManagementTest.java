@@ -19,7 +19,6 @@ class AccountManagementTest {
 	void setUp() {
 		printStream = mock(PrintStream.class);
 		InputStream inputStream = System.in;
-
 		reader = mock(LineReader.class);
 		accountManagement = new AccountManagement(printStream, reader);
 	}
@@ -56,6 +55,7 @@ class AccountManagementTest {
 
 	@Test
 	void shouldBeGivenChoiceToQuitWhenMenuShows() {
+
 		when(reader.readLine()).thenReturn("2");
 		accountManagement.menu();
 		verify(printStream).println(contains("choose an option"));
