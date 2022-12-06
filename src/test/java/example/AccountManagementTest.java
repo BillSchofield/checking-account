@@ -1,9 +1,11 @@
+package example;
+
+import example.AccountManagement;
+import example.LineReader;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.io.InputStream;
 import java.io.PrintStream;
-import java.util.Scanner;
 
 import static org.mockito.ArgumentMatchers.contains;
 import static org.mockito.Mockito.*;
@@ -28,6 +30,7 @@ class AccountManagementTest {
 		verify(printStream).println(contains("name"));
 	}
 
+
 	@Test
 	void shouldSeeAccountHolderNameInConfirmationWhenApplicationIsSubmit() {
 		String accountHolderName = "Bill";
@@ -38,4 +41,10 @@ class AccountManagementTest {
 		verify(printStream).println(contains(accountHolderName));
 	}
 
+	@Test
+	void shouldShowBalanceWhenAccountCreated() {
+		when(reader.readLine()).thenReturn("accountHolderName");
+		accountManagement.submit();
+		verify(printStream).println(contains("$0.00"));
+	}
 }
