@@ -39,13 +39,15 @@ class AccountManagementTest {
 
 	@Test
 	void shouldSeeAccountBalanceWhenAccountIsCreated() {
+		String accountHolderName = "Bill";
+		when(reader.readLine()).thenReturn(accountHolderName);
 		accountManagement.submit();
-		verify(printStream).println(contains("Current balance"));
+		verify(printStream).println(contains("Current balance is $0.00"));
 	}
 
 	@Test
 	void shouldBeGivenChoiceToCreateAccountWhenMenuShows() {
-		when(reader.readLine()).thenReturn("create");
+		when(reader.readLine()).thenReturn("1");
 		accountManagement.menu();
 		verify(printStream).println(contains("choose an option"));
 		verify(printStream).println(contains("Create an account"));
@@ -53,11 +55,26 @@ class AccountManagementTest {
 
 	@Test
 	void shouldBeGivenChoiceToQuitWhenMenuShows() {
-		when(reader.readLine()).thenReturn("quit");
+		when(reader.readLine()).thenReturn("2");
 		accountManagement.menu();
 		verify(printStream).println(contains("choose an option"));
-		verify(printStream).println(contains("Create an account"));
-		verify(printStream).println(contains("Quit"));
+		verify(printStream).println(contains("1. Create an account"));
+		verify(printStream).println(contains("2. Quit"));
+		verify(printStream).println(contains("Quitting"));
+	}
+
+	@Test
+	void shouldBeAbleToChooseNextOptionWhenQuitExitProgramOnly() {
+		String accountHolderName = "Bill";
+		when(reader.readLine()).thenReturn("1");
+		when(reader.readLine()).thenReturn("bill");
+		when(reader.readLine()).thenReturn("2");
+		accountManagement.menu();
+		verify(printStream).println(contains("choose an option"));
+		verify(printStream).println(contains("1. Create an account"));
+		verify(printStream).println(contains("2. Quit"));
+		verify(printStream).println(contains("Quitting"));
+
 	}
 
 	@Test
