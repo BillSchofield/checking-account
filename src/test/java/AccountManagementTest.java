@@ -19,6 +19,7 @@ class AccountManagementTest {
 	void setUp() {
 		printStream = mock(PrintStream.class);
 		InputStream inputStream = System.in;
+
 		reader = mock(LineReader.class);
 		accountManagement = new AccountManagement(printStream, reader);
 	}
