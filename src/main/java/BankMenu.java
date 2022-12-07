@@ -12,11 +12,29 @@ public class BankMenu {
         this.linereader = lineReader;
     }
 
-    public void selection(){
-        printStream.println("""
-                Please choose an option:
-                1. CREATE an account
-                """);
-        accountManager.submit();
+    public void selection() {
+        String option = "";
+        while (!option.equals("2")) {
+
+            printStream.println("""
+                    Please choose an option:
+                    1. CREATE an account
+                    2. Quit
+                    """);
+
+            option = linereader.readNext();
+
+            switch (option) {
+                case "1":
+                    accountManager.submit();
+                    break;
+                case "2":
+                    printStream.println("Your session has ended");
+                    break;
+                default:
+                    break;
+            }
+        }
     }
+
 }
