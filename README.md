@@ -35,16 +35,19 @@ We will prioritize learning and quality outcomes by diligently following these p
 | **Friday**                                                                                                                                      |
 |                                                                                                                                                 |
 
-#| Week 2 Schedule                                                                                                                                 |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Monday**                                                                                                                                      |
-| Introduction<br/>Overview of the Week<br/>Intro to TypeScript<br/>Discussions:  |
-| **Tuesday**                                                                                                                                     |
-| **Wednesday**                                                                                                                                   |
-| **Thursday**                                                                                                                                    |
-|                                                                                                                                                 |
-| **Friday**                                                                                                                                      |
-|                                                                                                                                                 |
+| Week 2 Schedule                                                                                                                   |
+|-----------------------------------------------------------------------------------------------------------------------------------|
+| **Monday**                                                                                                                        |
+| Introductions and Ice Breaker<br/>Previous Week Micro-Retro<br/>Goals for Week 2<br/>TypeScript Introduction and Guided Exercises |
+| **Tuesday**                                                                                                                       |
+| Testing in TypeScript<br/>Introduction to Cypress Testing and Guided Exercise                                                     |
+| **Wednesday**                                                                                                                     |
+| Introduction to React<br/>React Guided Exercise                                                                                   |
+| **Thursday**                                                                                                                      |
+| React Guided Exercise                                                                                                             |
+| **Friday**                                                                                                                        |
+| Complete React Guided Exercise<br/>Exercise Retro<br/>Additional Topics<br/>Summary<br/>Q&A<br/>                                  |
+                                                                                                                                           |
 
 ## References
 | Topic   | Resources                                                                                              |
