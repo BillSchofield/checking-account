@@ -10,7 +10,7 @@ public class LineReader {
         scanner= new Scanner(inputStream);
     }
 
-    public String readNext(){
+    public String readNextInput(){
         return scanner.nextLine();
     }
 }

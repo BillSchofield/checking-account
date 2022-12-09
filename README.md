@@ -25,11 +25,11 @@ We will prioritize learning and quality outcomes by diligently following these p
 | Schedule                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Monday**                                                                                                                                      |
-| Introduction<br/>Project Setup<br/>Mob Coding<br/>Checking Account User Stories<br/>Discussions: Pair Programming, Domain Modeling, and Quality |
+| Introduction<br/>Project Setup<br/>Mob Coding<br/>Checking AccountTest User Stories<br/>Discussions: Pair Programming, Domain Modeling, and Quality |
 | **Tuesday**                                                                                                                                     |
-| Checking Account User Stories<br/>Discussions: Dependency Injection and Mocking                                                                 |
+| Checking AccountTest User Stories<br/>Discussions: Dependency Injection and Mocking                                                                 |
 | **Wednesday**                                                                                                                                   |
-| Checking Account User Stories<br/>Discussions: Exceptions and Collections                                                                       |
+| Checking AccountTest User Stories<br/>Discussions: Exceptions and Collections                                                                       |
 | **Thursday**                                                                                                                                    |
 |                                                                                                                                                 |
 | **Friday**                                                                                                                                      |

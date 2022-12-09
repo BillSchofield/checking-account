@@ -1,4 +1,4 @@
-# Checking Account User Stories
+# Checking AccountTest User Stories
 Work on these stories in order and only work on one story at a time. Avoid any new behavior that is not part of your 
 current story.
 
@@ -7,7 +7,7 @@ current story.
 As a bank teller, I want to open an account for my customer so that I can help them manage their finances.
 
 ### Acceptance Criteria
-When I submit my customer's application to Account Management  
+When I submit my customer's application to AccountTest Management  
 Then I see confirmation that my customer's account was created
 ### Notes
 The only information need for application is the account holder's name. Display their name as part of the confirmation 
@@ -15,9 +15,9 @@ message.
 ### Example
 > Please enter the new account holder's name.  
 > _Bill_  
-> Account for Bill was created
+> AccountTest for Bill was created
 
-## Account Balance
+## AccountTest Balance
 ### Narrative
 As a bank teller, I want to retrieve my customer's current balance, so that they can make better financial decisions.
 ### Acceptance Criteria
@@ -29,7 +29,7 @@ Assume that the initial balance for a checking account is $0.00. Show this balan
 ### Example
 > Please enter the new account holder's name.  
 > _Bill_  
-> Account for Bill was created  
+> AccountTest for Bill was created  
 > Current balance is $0.00
 
 ## Menu option to create account
@@ -79,7 +79,7 @@ Then I can choose my next option
 >
 > ...
 
-## Account numbers
+## AccountTest numbers
 ### Narrative
 As a bank teller, I want accounts to have associated numbers, so that I can distinguish one account from another.
 ### Acceptance Criteria: Accounts have numbers
@@ -89,7 +89,7 @@ Then I see an account number for that account
 > ...
 > Please enter the new account holder's name.  
 > _Bill_  
-> Account #00000000 was created for Bill  
+> AccountTest #00000000 was created for Bill  
 > Current balance is $0.00
 ### Acceptance Criteria: Accounts numbers are unique
 Given at least one account has been created
@@ -105,13 +105,13 @@ Then I see the balance for the selected account
 ### Example
 > Please choose an option:  
 > * **Create** an account  
-> * Account **Balance**
+> * AccountTest **Balance**
 > * **Quit**
 > 
 > _balance_  
 > Enter account#  
 > _00000001_  
-> Account #0000001  
+> AccountTest #0000001  
 > Balance $0.00
 
 ## Make a deposit
@@ -130,7 +130,7 @@ And I see the updated balance
 > _00000001_  
 > Enter amount of deposit  
 > _1.00_  
-> Account #0000001  
+> AccountTest #0000001  
 > Balance $1.00  
 
 ### Notes
