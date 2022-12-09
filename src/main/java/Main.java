@@ -1,3 +1,4 @@
+
 import java.io.PrintStream;
 import java.util.HashMap;
 
@@ -16,5 +17,6 @@ public class Main {
 
 		BankMenu bankMenu = new BankMenu(accountManager, printStream,lineReader, commandMap);
 		bankMenu.selection();
+
 	}
 }

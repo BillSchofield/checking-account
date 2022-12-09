@@ -36,8 +36,10 @@ We will prioritize learning and quality outcomes by diligently following these p
 |                                                                                                                                                 |
 
 ## References
-| Topic   | Resources                                                                                   |
-|---------|---------------------------------------------------------------------------------------------|
-| TDD     | [Bill's TDD Intro](https://github.com/BillSchofield/TDDIntro/)                              |
-| Testing | [TestDesiderata](https://kentbeck.github.io/TestDesiderata/)                                |
-| Pair Programming | [Bill's Pair Programming Advice](https://github.com/BillSchofield/pair-programming-advice)  |
+| Topic   | Resources                                                                                              |
+|---------|--------------------------------------------------------------------------------------------------------|
+| TDD     | [Bill's TDD Intro](https://github.com/BillSchofield/TDDIntro/)                                         |
+| Testing | [TestDesiderata](https://kentbeck.github.io/TestDesiderata/)                                           |
+| Pair Programming | [Bill's Pair Programming Advice](https://github.com/BillSchofield/pair-programming-advice)             |
+| Tools | [IntelliJ Mac Keymap](https://www.jetbrains.com/help/idea/reference-keymap-mac-default.html)           |
+| Tools | [IntelliJ Keymap Cheatsheet](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) |

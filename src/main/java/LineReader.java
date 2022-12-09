@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class LineReader {
 
+
     private final Scanner scanner;
 
     public LineReader(InputStream inputStream) {
@@ -13,4 +14,5 @@ public class LineReader {
     public String readNextInput(){
         return scanner.nextLine();
     }
+
 }
