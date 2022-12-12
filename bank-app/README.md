@@ -31,3 +31,5 @@ As a bank customer, I want to be able to confirm a withdrawal
 Given I am on the withdrawal screen,
 when I click sumbit,
 Then I see my account balance with an updated amount.
+
+### Mockup - with this confirmation, the amount is updated once withdrawal button is clicked
