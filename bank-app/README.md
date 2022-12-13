@@ -12,7 +12,7 @@ Then I see my account balance listed with my name, a place to enter an amount, a
 ### Notes
 The only information need for application is the account balance and customers name. Assume that the initial balance for a checking account is $0.00.
 
-### Mockup - in this page you see an account page with some text and buttons.
+Mockup - in this page you see an account page with some text and buttons.
 
 ## Deposit Confirmation
 ### Narrative
@@ -22,7 +22,7 @@ Given I am on the Account page,
 when I click deposit,
 Then I see my account balance with an updated amount.
 
-### Mockup - with this confirmation, the amount is updated once deposit button is clicked
+Mockup - with this confirmation, the amount is updated once deposit button is clicked
 
 ## Withdraw Confirmation
 ### Narrative
@@ -32,4 +32,4 @@ Given I am on the withdrawal screen,
 when I click sumbit,
 Then I see my account balance with an updated amount.
 
-### Mockup - with this confirmation, the amount is updated once withdrawal button is clicked
+Mockup - with this confirmation, the amount is updated once withdrawal button is clicked
